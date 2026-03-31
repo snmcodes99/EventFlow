@@ -8,10 +8,10 @@ const ConnectRedis = async () => {
     try {
         client = createClient({
             username: 'default',
-            password: 'dGOmLlP48VfWZSbEOdrTvBRpz0NVo4zQ',
+            password: 'pass',
             socket: {
-                host: 'redis-15995.c267.us-east-1-4.ec2.cloud.redislabs.com',
-                port: 15995
+                host: 'redis',
+                port: xyz
             }
         });
 
