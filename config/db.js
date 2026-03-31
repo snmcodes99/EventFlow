@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const ConnectToDB = ()=>{
     try{
-        mongoose.connect("mongodb+srv://chessashishrautela:XsRNVcUpcqCb4ABi@cluster0.3g8fqtt.mongodb.net/Projects?appName=Cluster0");
+        mongoose.connect("mongoURL");
         console.log("Connected To DB");
     }catch(error){
         console.log(error);
